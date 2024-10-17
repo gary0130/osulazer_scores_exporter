@@ -40,6 +40,10 @@ Thumbs.db
 *.realm.lock
 *.realm.management/
 *.realm.note
+*.realm.backup*
 
 # Ignore osrhash.csv if it's generated
 osrhash.csv
+
+# Ignore exported folder
+export_replay/

@@ -13,8 +13,13 @@ node index.js
 ```
 會生成一個```osrhash.csv```，裡面就是lazer中score的資料了。
 
-### TODO
-接下來去lazer的檔案系統中把檔案撈出來重命名即可，lazer就可以刪掉拉。
+
+接下來去lazer的檔案系統中把檔案撈出來重命名即可，lazer就可以刪掉拉。  
+打開```get_replay.py```填入lazer的files路徑，並執行
+```
+osu_files_path = 'XXXXX'
+```
+最後會輸出到```export_replay```資料夾中。
 
 ## 注意
 這份對照表只包含lazer中的遊玩紀錄，具體來說是 mode!=CL ，所以stable導入的資料不包含在其中(stable的replay放在osu/Data/r裡面)。
